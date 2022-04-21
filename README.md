@@ -6,11 +6,11 @@ public class Main {
     {
         int x, y, z;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the first number:");
+        System.out.println("Enter the first number:");
         x = s.nextInt();
-        System.out.print("Enter the second number:");
+        System.out.println("Enter the second number:");
         y = s.nextInt();
-        System.out.print("Enter the third number:");
+        System.out.println("Enter the third number:");
         z = s.nextInt();
         if(x > y && x > z)
         {
